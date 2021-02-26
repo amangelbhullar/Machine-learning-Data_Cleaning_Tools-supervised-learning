@@ -34,6 +34,13 @@ le = LabelEncoder()
 y = le.fit_transform(y)
 print(y)
 
+# Feature Scaling (leave dummy variables)
+
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+x_train[:, 3:] = sc.fit_transform(x_train[:, 3:])
+x_test[:, 3:] = sc.transform(x_test[:, 3:])
+
 # Splitting the dataset into the Training set and Test set
 
 from sklearn.model_selection import train_test_split
