@@ -1,4 +1,4 @@
-# Machine-learning-supervised-learning
+# Machine-learning-supervised-learning - python
 # Object- Predicting customer purchase for a product based on salary, region(country), income
 # Data preprocessing
 # import liberaries and dataset
