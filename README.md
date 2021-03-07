@@ -1,5 +1,5 @@
 # Machine-learning-supervised-learning - python
-#Objective- Predicting customer purchase for a product based on salary, region(country), income
+Data cleaning tools
 ### Data preprocessing
 ### import liberaries and dataset
 import numpy as np
